@@ -14,7 +14,7 @@ class Anagram
     array.each do |word|
       # compare each word of array to OG word 
       # determine if word is anagram
-      if word.chars.sort == @word.sort
+      if word.chars.sort == @word.chars.sort
         anagrams << word
       end
       anagrams #return all matches/ empty array if no matches exist
