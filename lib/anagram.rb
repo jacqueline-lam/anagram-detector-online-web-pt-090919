@@ -17,8 +17,8 @@ class Anagram
       if word.chars.sort == @word.chars.sort
         anagrams << word
       end
-      anagrams #return all matches/ empty array if no matches exist
     end
+    anagrams #return all matches/ empty array if no matches exist
   end
   
 end
